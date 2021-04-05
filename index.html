@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body class="bg-secondary">
+       <div class="container">
+           <div class="card mt-5 ">
+               <div class="card-header text-center"> <h1>BMI CALCULATOR</h1>   </div>
+               <div class="card-body">
+                   <form class="w-75 m-auto" onsubmit="return false"> 
+                        <div class="form-group">
+                            <label> <b>Your Weight:</b> </label>
+                            <input id="weight" class="form-control" placeholder="Weight in kg" required type="number"> 
+                        </div>
+
+                        <div class="form-group">
+                            <label> <b> Your Height :</b> </label>
+                            <input id="height" class="form-control" placeholder="Height in Fit" required type="text"> 
+                        </div>
+
+                        <div class="form-group">
+                            <label> <b> Your BMI(Body Mass Index) Result :</b> </label>
+                            <input id="bmiValue" class="form-control"  type="number"> 
+                        </div>
+
+                         <div>
+                          <button class="btn btn-success" onclick="getBmiValue()">Chick BMI</button>
+                          
+                        </div>
+                   </form>
+               </div>
+               <div id="footer" class="card-footer text-center">
+                   
+                       <h5 > <b> <span class="text-success">Normal and Healthy</span> BMI ranges between <span class="text-success">19</span> and <span class="text-success"> 25.</span></b></h5>
+                      
+               </div>   
+           </div>     
+       </div>
+
+    <script src="script.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
