@@ -5,6 +5,7 @@
 
 ### Technology usesd:
 - jAVASCRIPT
+- Bootstrap 4
 - HTML
 - CSS
 ### project Scrienshot:
